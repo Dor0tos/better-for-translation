@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Chava";
+    src: url("./fonts/Chava-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Minecraft Seven";
+    src: url("./fonts/MINECRAFTSEVEN.TTF");
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Chava", system-ui, sans-serif;
+  }
+}
